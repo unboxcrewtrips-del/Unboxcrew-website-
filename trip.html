@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trip Details | UnboxCrew</title><meta name="description" content="UnboxCrew — premium adventure travel and group experiences.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css"></head><body>
+<div class="cursor-glow" id="glow"></div>
+<div class="nav-wrap">
+  <nav class="nav">
+    <a class="logo" href="index.html"><span class="logo-mark">U</span>unbox<span>crew</span></a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="trips.html">Trips</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a class="nav-cta" href="trips.html">EXPLORE TRIPS →</a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </nav>
+</div>
+
+<section class="trip-hero" data-trip-hero style="background-position:center;background-size:cover">
+ <div class="container trip-hero-content reveal">
+  <div class="eyebrow" data-trip-destination></div><h1 data-trip-name></h1>
+  <div class="trip-info"><span class="pill" data-trip-dates></span><span class="pill">Premium group adventure</span></div>
+  <a class="btn btn-gold" data-wa>BOOK THIS TRIP →</a>
+ </div>
+</section>
+<section class="section">
+ <div class="container detail-layout">
+  <main>
+   <div class="copy reveal"><div class="kicker">Trip overview</div><h2 data-trip-name></h2><p data-trip-description></p></div>
+   <div class="section" style="padding:50px 0 0"><div class="kicker">Highlights</div><ul class="list" data-highlights></ul></div>
+   <div class="section" style="padding:50px 0 0"><div class="kicker">Complete itinerary</div><div class="itinerary" data-itinerary></div></div>
+   <div class="section" style="padding:50px 0 0"><div class="split" style="gap:40px;align-items:start">
+    <div><div class="kicker">Included</div><ul class="list" data-inclusions></ul></div>
+    <div><div class="kicker">Not included</div><ul class="list" data-exclusions></ul></div>
+   </div></div>
+   <div class="section" style="padding:50px 0 0"><div class="kicker">Important information</div><div class="day"><h3>Things to carry</h3><p>Comfortable clothes, walking shoes, personal medicines, ID proof, power bank and a positive adventure mindset.</p></div><div class="day" style="margin-top:12px"><h3>Cancellation policy</h3><p>Cancellation terms can vary by trip. Confirm the applicable policy before booking.</p></div></div>
+  </main>
+  <aside class="sticky-book reveal"><div class="kicker">Reserve your seat</div><h3 data-trip-name></h3><div class="price-big" data-trip-price></div><small>Booking confirmation and final payment details will be shared on WhatsApp.</small><a class="btn btn-dark" style="width:100%" data-wa>WHATSAPP TO BOOK →</a><a class="btn" style="width:100%;margin-top:8px;border:1px solid rgba(7,26,47,.15)" href="trips.html">← VIEW OTHER TRIPS</a></aside>
+ </div>
+</section>
+<section class="section black"><div class="container contact-box" style="background:linear-gradient(135deg,#0b2138,#05070a)"><div class="kicker">Unbox the world</div><h2 class="section-title" style="color:#fff">Your next story is waiting.</h2><div style="margin-top:24px"><a class="btn btn-gold" data-wa>CHAT WITH UNBOXCREW →</a></div></div></section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="index.html"><span class="logo-mark">U</span>unbox<span>crew</span></a>
+        <p style="color:#9aa6b4;max-width:360px;margin-top:18px">Pack your bags. Find your crew. Unbox the world.</p>
+      </div>
+      <div><h4>Explore</h4><a href="trips.html">Trips</a><a href="destinations.html">Destinations</a><a href="gallery.html">Gallery</a></div>
+      <div><h4>Company</h4><a href="about.html">About</a><a href="reviews.html">Reviews</a><a href="faq.html">FAQ</a></div>
+      <div><h4>Connect</h4><a href="contact.html">Contact</a><a href="mailto:bookings@unboxcrew.com">bookings@unboxcrew.com</a><a href="https://wa.me/919625131595" target="_blank">WhatsApp +91 9625131595</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 UnboxCrew. All rights reserved.</span><span>UNBOX THE WORLD. TOGETHER.</span></div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script><script>
+document.addEventListener('mousemove',e=>{const g=document.getElementById('glow');if(g){g.style.left=e.clientX+'px';g.style.top=e.clientY+'px'}});
+</script></body></html>
